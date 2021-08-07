@@ -1,0 +1,17 @@
+.flex-rps img:hover{
+    box-shadow: 0px 10px 50px rgba(37, 50, 233, 1);
+}
+
+@media (max-width: 676px) {
+    .flex-rps{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+    }
+    .flex-rps #rock{
+        margin-top: 20px !important;
+    }
+    .flex-rps img{
+        margin-bottom: 20px !important;
+    }
+}
